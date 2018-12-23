@@ -1,0 +1,23 @@
+<button (click)="displayDetails()">{{btnTxt}}</button>
+<br>
+<br>
+<table *ngIf ="showDetails">
+	
+	<tr>
+		<td>firstName</td>
+		<td>{{firstname}}</td>
+	</tr>
+	<tr>
+		<td>lastName</td>
+		<td>{{lastname}}</td>
+	</tr>
+	<tr>
+		<td>Salary</td>
+		<td>{{salary}}</td>
+	</tr>
+	<tr>
+		<td>Department</td>
+		<td>{{department}}</td>
+	</tr>
+
+</table>
